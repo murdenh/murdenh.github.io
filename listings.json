@@ -2,6 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/diffusion-model/diffusion.html",
+      "/posts/third-app/index.html",
+      "/posts/second-app/index.html",
       "/posts/first-app/index.html"
     ]
   }

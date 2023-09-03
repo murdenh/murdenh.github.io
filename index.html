@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -127,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="apps">apps <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Diffusion model">Diffusion model <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Generative model">Generative model <span class="quarto-category-count">(1)</span></div><div class="category" data-category="apps">apps <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -154,14 +154,115 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="apps" data-listing-date-sort="1678626000000" data-listing-file-modified-sort="1679279759549" data-listing-reading-time-sort="0.11">
+<div class="quarto-post image-right" data-index="0" data-categories="Generative model,Diffusion model" data-listing-date-sort="1693663200000" data-listing-file-modified-sort="1693762683513" data-listing-reading-time-sort="15.655">
+<div class="thumbnail">
+<p><a href="./posts/diffusion-model/diffusion.html"> 
+  <img src="./posts/diffusion-model/nvidia-canvas.gif" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/diffusion-model/diffusion.html">
+<h3 class="no-anchor listing-title">
+Diffusion based Generative Model
+</h3>
+<div class="listing-subtitle">
+Intutive explanation and mathematical theory with simple examples
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Generative model'); return false;">
+Generative model
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Diffusion model'); return false;">
+Diffusion model
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/diffusion-model/diffusion.html">
+<div class="listing-date">
+Sep 3, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="apps" data-listing-date-sort="1688306400000" data-listing-file-modified-sort="1693760578605" data-listing-reading-time-sort="0.395">
+<div class="thumbnail">
+<p><a href="./posts/third-app/index.html"> 
+  <img src="./posts/third-app/koqa1.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/third-app/index.html">
+<h3 class="no-anchor listing-title">
+Ko-Q&amp;A bot on edge
+</h3>
+<div class="listing-subtitle">
+Polyglot-ko based Q&amp;A bot running on a browser
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('apps'); return false;">
+apps
+</div>
+</div>
+<a href="./posts/third-app/index.html">
+<div class="listing-description">
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/third-app/index.html">
+<div class="listing-date">
+Jul 3, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="apps" data-listing-date-sort="1687528800000" data-listing-file-modified-sort="1693758970899" data-listing-reading-time-sort="0.24">
+<div class="thumbnail">
+<p><a href="./posts/second-app/index.html"> 
+  <img src="./posts/second-app/llama1.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/second-app/index.html">
+<h3 class="no-anchor listing-title">
+LLama bot
+</h3>
+<div class="listing-subtitle">
+LLama based Q&amp;A bot
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('apps'); return false;">
+apps
+</div>
+</div>
+<a href="./posts/second-app/index.html">
+<div class="listing-description">
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/second-app/index.html">
+<div class="listing-date">
+Jun 24, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="apps" data-listing-date-sort="1678626000000" data-listing-file-modified-sort="1693755630705" data-listing-reading-time-sort="1.12">
+<div class="thumbnail">
+<p><a href="./posts/first-app/index.html"> 
+  <img src="./posts/first-app/p2pmeta1.png" class="thumnail-image"> </a></p>
+</div>
 <div class="body">
 <a href="./posts/first-app/index.html">
 <h3 class="no-anchor listing-title">
 P2P Meta Video Chat
 </h3>
 <div class="listing-subtitle">
-
+Web-based Video chat application <br> (with P2P and ML based features)
 </div>
 </a>
 <div class="listing-categories">
@@ -171,7 +272,7 @@ apps
 </div>
 <a href="./posts/first-app/index.html">
 <div class="listing-description">
-This is the first sample web-application
+
 </div>
 </a>
 </div>
